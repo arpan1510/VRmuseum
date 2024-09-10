@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VRMuseum.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d99c054409776ab439b16f90fa33572b,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3413c48291479a140893b3b23e494b7e,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 49ae8d7e2eb05f94fac1128e1c685b01,
+      type: 2}
