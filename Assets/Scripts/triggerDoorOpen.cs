@@ -17,8 +17,16 @@ public class triggerDoorOpen : MonoBehaviour
             other.gameObject.SetActive(false);
             ldooranimator.SetTrigger("TrOpen");
             rdooranimator.SetTrigger("TrOpen");
-
+        }
+        if(other.gameObject.name== "DoorClose")
+        {
+            ldooranimator.SetTrigger("TrClose");
+            rdooranimator.SetTrigger("TrClose");
+            other.gameObject.SetActive(false);
         }
     }
-
+    private void OnTriggerExit(Collider other)
+    {
+        
+    }
 }

@@ -52,6 +52,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Material.001_mercury.006
+    second: {fileID: 2100000, guid: 357c90cb8565f0e47a9ddc0d95232d48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: bf82b286bd47520439e8f73ac4f7491b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material.003
     second: {fileID: 2100000, guid: 192fbf889e25d164999da32a7b72c7a4, type: 2}
   - first:
@@ -67,13 +77,38 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 8acde8600809a0949a9d936e65fd9178, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 4953ffdafd595b14f879d8f2dd52d9d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material.009
     second: {fileID: 2100000, guid: a7f5ec2ff94b16d42bdfa000d6db4057, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: 74679eacd6719b64bb75c0e5fc794f02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material.011
     second: {fileID: 2100000, guid: a5f24e5d09ba6ed41a4443239183dab3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.012
+    second: {fileID: 2100000, guid: bc90e965f8050b541afc0ca24060913c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.014
+    second: {fileID: 2100000, guid: f38eaa3748548d440b7c0c8573f6d19f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -102,6 +137,51 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: MercuryBlue
+    second: {fileID: 2100000, guid: 2f1a6f0b077385e4cbc77fb8ec29220a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MercuryBlue.001
+    second: {fileID: 2100000, guid: 79b5bc5679cf6f64bb3685ccee1b9337, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MercuryBlue.003
+    second: {fileID: 2100000, guid: e9ceed9cc6ebb91488f1186a7a5d7c88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MercuryBlue.004
+    second: {fileID: 2100000, guid: b208e1b3ea0f25b47aa946c4c56cad45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MercuryBlue.005
+    second: {fileID: 2100000, guid: 3cf3bb0fce0ebea4f8a1a226db15ed4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MercuryBlue.006
+    second: {fileID: 2100000, guid: bdb47d6ab8c48554dbfd893c2f1af5f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MercuryBlue.007
+    second: {fileID: 2100000, guid: 4c95eb68a93b602408354a9d1f690dea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MercuryBlue.008
+    second: {fileID: 2100000, guid: 449c84ec4c4fc264ab61e2816c539155, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MercuryBlue.009
+    second: {fileID: 2100000, guid: 230fc68243165c84fbe0e90670f672b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Moon
     second: {fileID: 2100000, guid: 16f2e03c6bd5c6344983b5cf2cf2706d, type: 2}
   - first:
@@ -122,8 +202,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: SaturnRings
+    second: {fileID: 2100000, guid: 0607f12fc58d47c4ea07dce3a73aa516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Sofa
     second: {fileID: 2100000, guid: 66fcd047ffae2414ca7397ffcb05bce6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SolarSystem
+    second: {fileID: 2100000, guid: 77090a30b58bc454f9f91d901c9729d1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -182,6 +272,21 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: quadro_figura.001
+    second: {fileID: 2100000, guid: 559d61bc230618b47b05a6052dac0a1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: solar quote
+    second: {fileID: 2100000, guid: 124fe588411134f428f3fade73d3d6e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: solarsysytem
+    second: {fileID: 2100000, guid: 78dd83381a24cc7488db53f5a635502f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: stainless
     second: {fileID: 2100000, guid: 5a670682198b6fe4296b8468a97db6b3, type: 2}
   - first:
@@ -194,6 +299,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: table
     second: {fileID: 2100000, guid: 6807ff881bc177242a867b8d42d10893, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vrheadset
+    second: {fileID: 2100000, guid: 30c546c1c3eb8144f9ce0571dd8bfb1c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
