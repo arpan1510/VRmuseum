@@ -14,6 +14,7 @@ public class snapBackOnRelease : MonoBehaviour
     {
         grabInteractable = GetComponent<XRGrabInteractable>();
         initialLocalPosition = transform.localPosition;
+       
     }
 
     // Update is called once per frame
@@ -27,6 +28,7 @@ public class snapBackOnRelease : MonoBehaviour
         }
         else
         {
+            ghost.transform.localPosition = initialLocalPosition;
             ghost.SetActive(true);
         }
     }
