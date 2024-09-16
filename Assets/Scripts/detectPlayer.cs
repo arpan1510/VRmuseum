@@ -6,9 +6,11 @@ public class detectPlayer : MonoBehaviour
 {
     public GameObject title;
     public GameObject planet;
+    public GameObject proximityCircle;
     public Material material_old;
     public Material material_new;
-    Renderer rend;
+    Renderer titleRend;
+    Renderer proximityRend;
     private Animator planetRotate;
     private Color color;
     private SphereCollider planetCollider;
@@ -16,7 +18,8 @@ public class detectPlayer : MonoBehaviour
     void Start()
     {
         planetRotate = planet.GetComponent<Animator>();
-        rend = title.GetComponent<Renderer>();
+        titleRend = title.GetComponent<Renderer>();
+        proximityRend = title.GetComponent<Renderer>();
         planetCollider = planet.GetComponent<SphereCollider>();
         planetCollider.enabled = false;
 
@@ -26,14 +29,9 @@ public class detectPlayer : MonoBehaviour
         
         if (other.gameObject.name == "XR Origin (XR Rig)")
         {
-           
-            //planetRotate = planet.GetComponent<Animator>();
-            //rend = title.GetComponent<Renderer>();
-            //planetCollider=planet.GetComponent<SphereCollider>();
-            
-            rend.material = material_new;
+            titleRend.material = material_new;
+            proximityRend.material = material_new;
             planetCollider.enabled = true;
-            //planetRotate.SetTrigger("TrMercury");
             planetRotate.speed = 1;
         }
     }
@@ -42,11 +40,9 @@ public class detectPlayer : MonoBehaviour
 
         if (other.gameObject.name == "XR Origin (XR Rig)")
         {
-            //planetRotate = planet.GetComponent<Animator>();
-            //rend = title.GetComponent<Renderer>();
-            rend.material = material_old;
+            titleRend.material = material_old;
+            proximityRend.material = material_old;
             planetCollider.enabled = false;
-            //planetRotate.SetTrigger("TrMercuryClose");
             planetRotate.speed = 0;
         }
     }

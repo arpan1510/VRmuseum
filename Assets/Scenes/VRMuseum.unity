@@ -3169,7 +3169,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1305493029}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7b38935be54fde64c8cb01db0351e953, type: 2}
   m_CullingMode: 0
@@ -4738,6 +4738,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: {fileID: 1094490348}
   planet: {fileID: 1305493029}
+  proximityCircle: {fileID: 0}
   material_old: {fileID: 2100000, guid: 2f1a6f0b077385e4cbc77fb8ec29220a, type: 2}
   material_new: {fileID: 2100000, guid: 72707e9e9ba75e146bbbe5ab1b311981, type: 2}
 --- !u!136 &1975206475
