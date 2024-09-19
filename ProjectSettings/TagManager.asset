@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Markers
+  - planets
   layers:
   - Default
   - TransparentFX
