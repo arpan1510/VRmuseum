@@ -9,4 +9,9 @@ public class restartExit : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); // loads current scene
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }
