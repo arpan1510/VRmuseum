@@ -5,11 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class restartExit : MonoBehaviour
 {
+    // restarts application
     public void RestartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // loads current scene
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
+    // exits application
     public void ExitGame()
     {
         Application.Quit();
